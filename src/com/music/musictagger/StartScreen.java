@@ -77,7 +77,7 @@ public class StartScreen extends FragmentActivity implements ActionBar.TabListen
         setContentView(R.layout.start_screen);
         
 
-		config = GNConfig.init("13735168-57FB62F43DE59B14441A1690A0D59405",this.getApplicationContext());
+		config = GNConfig.init(<API Key>,this.getApplicationContext());
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
