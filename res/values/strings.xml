@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">Music Tagger</string>
+    <string name="image_name">Album Art</string>
+    
+    <string name="title_section2">About Us</string>
+    <string name="title_section1">Tagger</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start_screen">Music Tagger</string>
+    
+
+</resources>

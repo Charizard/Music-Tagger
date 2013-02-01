@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/oldtrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/oldalbumart"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/oldalbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oldtrack"
+        android:layout_toRightOf="@+id/oldalbumart"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/oldartist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oldalbum"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/oldalbumart"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/oldtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#c38"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp" />
+    
+    <TextView
+        android:id="@+id/newtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c38"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/seperator" />
+    
+ 	<TextView
+        android:id="@+id/newtrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/newalbumart"
+        android:layout_below="@+id/seperator"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/newalbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newtrack"
+        android:layout_toRightOf="@+id/newalbumart"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/newartist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newalbum"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/newalbumart"
+        android:textColor="#fff" />
+
+    
+	<ImageView
+        android:id="@+id/seperator"
+        android:contentDescription="@string/image_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oldalbumart"
+        android:src="@drawable/seperator" />
+
+
+    <ImageView
+        android:id="@+id/newalbumart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image_name"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/newtitle" />
+    
+    <ImageView
+        android:id="@+id/oldalbumart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/oldtitle"
+        android:contentDescription="@string/image_name"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>
