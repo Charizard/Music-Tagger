@@ -6,8 +6,8 @@
 
     <TextView
         android:id="@+id/oldtrack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
@@ -16,8 +16,8 @@
 
     <TextView
         android:id="@+id/oldalbum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_below="@+id/oldtrack"
         android:layout_toRightOf="@+id/oldalbumart"
         android:layout_marginLeft="20dp"
@@ -26,8 +26,8 @@
 
     <TextView
         android:id="@+id/oldartist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_below="@+id/oldalbum"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
@@ -37,8 +37,8 @@
 
     <TextView
         android:id="@+id/oldtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:textColor="#c38"
@@ -49,8 +49,8 @@
     
     <TextView
         android:id="@+id/newtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:textColor="#c38"
         android:textSize="20dp"
         android:layout_marginLeft="10dp"
@@ -59,8 +59,8 @@
     
  	<TextView
         android:id="@+id/newtrack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
         android:layout_toRightOf="@+id/newalbumart"
@@ -69,8 +69,8 @@
 
     <TextView
         android:id="@+id/newalbum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_below="@+id/newtrack"
         android:layout_toRightOf="@+id/newalbumart"
         android:layout_marginLeft="20dp"
@@ -79,8 +79,8 @@
 
     <TextView
         android:id="@+id/newartist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
         android:layout_below="@+id/newalbum"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
