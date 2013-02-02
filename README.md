@@ -9,6 +9,12 @@ Note:This Application used Gracenote's Fingerprinting feature.
 
 Gracenote Developer site: http://developer.gracenote.com
 
+Requirements
+============
+
+Android 4.0 is required. Support for earlier versions will be added soon.
+
+
 How to Build and Run
 ====================
 
