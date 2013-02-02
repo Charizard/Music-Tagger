@@ -65,19 +65,7 @@ public class StartScreen extends Activity {
         setContentView(R.layout.start_screen);
         
 
-<<<<<<< HEAD
-		config = GNConfig.init("1196288-124407CDD818E9B997FEDEE06B9E47A3",this.getApplicationContext());
-=======
-		config = GNConfig.init(<API Key>,this.getApplicationContext());
-
-        // Set up the action bar.
-        final ActionBar actionBar = getActionBar();
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-
-        // For each of the sections in the app, add a tab to the action bar.
-        actionBar.addTab(actionBar.newTab().setText(R.string.title_section1).setTabListener(this));
-        actionBar.addTab(actionBar.newTab().setText(R.string.title_section2).setTabListener(this));
->>>>>>> 165272ba25de05a96e7e7f2bd0352038e3b8620e
+	config = GNConfig.init(<API Key>,this.getApplicationContext());
         
         
         filepath = (EditText)this.findViewById(R.id.filepath);
@@ -511,31 +499,5 @@ public class StartScreen extends Activity {
                 getActionBar().getSelectedNavigationIndex());
     }
 
-<<<<<<< HEAD
 }
-=======
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.start_screen, menu);
-        return true;
-    }
 
-	@Override
-	public void onTabReselected(Tab arg0, FragmentTransaction arg1) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void onTabSelected(Tab arg0, FragmentTransaction arg1) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void onTabUnselected(Tab arg0, FragmentTransaction arg1) {
-		// TODO Auto-generated method stub
-		
-	}
-}
->>>>>>> 165272ba25de05a96e7e7f2bd0352038e3b8620e
